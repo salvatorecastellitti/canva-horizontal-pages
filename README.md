@@ -8,7 +8,7 @@ A browser extension that transforms Canva's page navigation from horizontal scro
 - **Easy to Use**: Simply install and enable the extension in your Canva editor
 - **Lightweight**: Minimal footprint with no impact on Canva's performance
 
-### Demo
+![Demo](https://raw.githubusercontent.com/salvatorecastellitti/canva-horizontal-pages/main/assets/demo-video.gif)
 
 ## Installation
 
