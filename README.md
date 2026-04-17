@@ -1,6 +1,6 @@
 # Horizontify Canva
 
-A browser extension that transforms Canva's page navigation from horizontal scroll to vertical layout.
+A browser extension that transforms Canva's page navigation from vertical scroll to horizontal layout.
 
 ## Features
 
