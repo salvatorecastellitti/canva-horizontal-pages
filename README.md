@@ -10,14 +10,39 @@ A browser extension that transforms Canva's page navigation from horizontal scro
 
 ### Demo
 
-![Demo Video](assets/demo-video.mp4)
-
 ## Installation
 
-1. Clone or download this repository
-2. Open your browser's extension management page
-3. Enable "Developer Mode"
-4. Click "Load Unpacked" and select the folder Horizontify
+### Option 1 — Download only the extension folder (recommended)
+
+Run this single command to download **only** the `Horizontify` extension folder (no extra files):
+
+```bash
+git clone --filter=blob:none --sparse https://github.com/salvatorecastellitti/canva-horizontal-pages.git && cd canva-horizontal-pages && git sparse-checkout set Horizontify
+```
+
+The extension will be inside the `canva-horizontal-pages/Horizontify` folder.
+
+> **No git?** You can also use [npx degit](https://github.com/Rich-Harris/degit) (requires Node.js):
+>
+> ```bash
+> npx degit salvatorecastellitti/canva-horizontal-pages/Horizontify Horizontify
+> ```
+
+### Option 2 — Clone the full repository
+
+```bash
+git clone https://github.com/salvatorecastellitti/canva-horizontal-pages.git
+```
+
+---
+
+### Load the extension in your browser
+
+1. Open your browser's extension management page:
+   - **Chrome / Edge / Brave**: `chrome://extensions`
+   - **Arc**: Extensions → Manage Extensions
+2. Enable **Developer Mode** (toggle in the top-right corner)
+3. Click **"Load Unpacked"** and select the `Horizontify` folder
 
 ## Usage
 
