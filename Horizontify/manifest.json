@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Horizontify - Canva",
+    "version": "2.0",
+    "description": "Displays Canva pages side by side horizontally with adjustable gap",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.canva.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "panel.css"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}
