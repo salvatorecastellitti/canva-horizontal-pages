@@ -4,7 +4,7 @@ A browser extension that transforms Canva's page navigation from horizontal scro
 
 ## Features
 
-- **Vertical Page Navigation**: Switch from Canva's default horizontal page scroll to a more intuitive vertical layout
+- **Horizontal Page Navigation**: Switch from Canva's default vertical page scroll to a more intuitive Horizontal layout
 - **Easy to Use**: Simply install and enable the extension in your Canva editor
 - **Lightweight**: Minimal footprint with no impact on Canva's performance
 
@@ -46,7 +46,7 @@ git clone https://github.com/salvatorecastellitti/canva-horizontal-pages.git
 
 ## Usage
 
-Once installed, the extension will automatically apply the vertical layout when you open Canva's design editor.
+Once installed, the extension will automatically apply the horizontal layout when you open Canva's design editor.
 
 ## Follow
 
